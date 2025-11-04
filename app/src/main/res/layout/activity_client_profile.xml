@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientProfileActivity">
+
+    <TextView
+        android:id="@+id/clientEmailID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="59dp"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnViewWorkOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientName" />
+
+    <TextView
+        android:id="@+id/clientName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/clientEmailID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnViewWorkOut"
+        android:layout_width="162dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnViewWorkouts"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogWorkout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientEmailID" />
+
+    <Button
+        android:id="@+id/btnLogWorkout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnLogWorkout"
+        app:layout_constraintBottom_toTopOf="@+id/btnTrackMeal"
+        app:layout_constraintEnd_toEndOf="@+id/btnTrackMeal"
+        app:layout_constraintStart_toStartOf="@+id/btnViewWorkOut"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewWorkOut" />
+
+    <Button
+        android:id="@+id/btnTrackMeal"
+        android:layout_width="158dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/btnTrackMeal"
+        app:layout_constraintBottom_toTopOf="@+id/btnProgress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogWorkout" />
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:text="@string/btnProgress"
+        app:layout_constraintBottom_toTopOf="@+id/btnEditProfile"
+        app:layout_constraintEnd_toEndOf="@+id/btnTrackMeal"
+        app:layout_constraintStart_toStartOf="@+id/btnEditProfile"
+        app:layout_constraintTop_toBottomOf="@+id/btnTrackMeal" />
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="161dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="106dp"
+        android:text="@string/btnProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProgress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

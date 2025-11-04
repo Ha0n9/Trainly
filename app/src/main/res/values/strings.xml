@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Trainly</string>
+    <string name="btnClientProfile">Client Profile</string>
+    <string name="btnViewWorkouts">View Workouts</string>
+    <string name="btnLogWorkout">Log Wokout</string>
+    <string name="btnTrackMeal">Track meal</string>
+    <string name="btnProgress">Progress</string>
+    <string name="btnProfile">Edit Profile</string>
+    <string name="name">Client Name</string>
+    <string name="email">Client Email</string>
+    <string name="trackMeal">Tracking Meals</string>
+    <string name="enterMeal">Select the meal</string>
+    <string name="removeMeal">Current Foods</string>
+    <string name="calorieCount">Show Calorie Count</string>
+    <string name="backToClientProfile">Back To Main</string>
+    <string-array name="stringArray">
+        <item>Meal 1</item>
+        <item>Meal 2</item>
+        <item>Meal 3</item>
+        <item>Meal 4</item>
+        <item>Meal 5</item>
+    </string-array>
+    <string name="editProfile">Edit Your Profile</string>
+    <string name="nameField">Enter new name</string>
+    <string name="usernameField">Enter new username</string>
+    <string name="emailField">Enter new email</string>
+    <string name="passwordChangeBtn">Change Password</string>
+
 </resources>
