@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pattern_1"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/tvTitleLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signupTitle"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/etSignupUserEmail"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:hint="@string/signupEmailPrompt"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <EditText
+        android:id="@+id/etSignupUserPhoneNumber"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:hint="@string/signupPhoneNumberPrompt"
+        android:inputType="phone"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/etSignupUserPassword"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:hint="@string/signupPasswordPrompt"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <EditText
+        android:id="@+id/etSignupUserName"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:text="@string/signupUserNamePrompt"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/btnSignupActvt"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:text="@string/btnUserSignup"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <Button
+        android:id="@+id/btnGotoLogin"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:text="@string/btnUserLogin"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="585dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,63 @@
 <resources>
-    <string name="app_name">Trainly</string>
+    <!-- Splash Activity-->
+    <string name="splashActvTitle">Trainly</string>
+    <string name="splashActvQuote">Where we develop OURSELVES together</string>
+
+    <!-- Main Activity-->
+    <string name="appTitle">Trainly</string>
+    <string name="welcomePrompt">Welcome to Trainly</string>
+    <string name="btnLoginTrainer">Login</string>
+    <string name="btnSignup">Sign Up</string>
+
+    <!-- Login Activity-->
+    <string name="loginTitle">Login</string>
+    <string name="emailPrompt">Enter your email</string>
+    <string name="passwordPrompt">Enter your password</string>
+    <string name="btnUserLogin">Login</string>
+    <string name="btnUserSignup">Signup</string>
+
+    <!-- Signup Activity-->
+    <string name="signupTitle">Signup</string>
+    <string name="signupEmailPrompt">Enter your Email</string>
+    <string name="signupUserNamePrompt">Enter your Name</string>
+    <string name="signupPhoneNumberPrompt">Enter your Phone number</string>
+    <string name="signupPasswordPrompt">Enter your Password</string>
+    <string-array name="spnChooseAccountType">
+        <item>Trainer</item>
+        <item>Trainee</item>
+    </string-array>
+
+    <!-- Assign/Create Workout Activity -->
+    <string name="createWorkoutTitle">Trainer Assign/Create Workout</string>
+    <string-array name="spnChooseClientAssign">
+        <item>Select a customer ...</item>
+        <item>Customer 1</item>
+        <item>Customer 2</item>
+        <item>Customer 3</item>
+    </string-array>
+    <string name="etEnterExerciseName">Enter excercises name</string>
+    <string name="etEnterRepsAssign">Enter reps</string>
+    <string name="btnAddWorkoutAssign">Add Workout</string>
+    <string name="btnBackToMainAssign">Back to Main</string>
+
+    <!-- Trainer Search Activity-->
+    <string name="trainerSearchTitle">Trainer Search</string>
+    <string-array name="spnChooseClientSearchEdit">
+        <item>Select a customer ...</item>
+        <item>Customer 1</item>
+        <item>Customer 2</item>
+        <item>Customer 3</item>
+    </string-array>
+    <string name="btnEditSearchEdit">Edit Exercise Info</string>
+
+    <!-- Trainer Reminder Activity-->
+    <string name="trainerReminderTitle">Trainer Reminder</string>
+    <string-array name="spnChooseClientRemind">
+        <item>Select a customer ...</item>
+        <item>Customer 1</item>
+        <item>Customer 2</item>
+        <item>Customer 3</item>
+    </string-array>
+    <string name="etEnterMessageTrainer">Enter reminder ...</string>
+    <string name="btnSendReminder">Send Reminder</string>
 </resources>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Google Fit style dark colors -->
+    <color name="dark_background">#1E1E1E</color>
+    <color name="dark_surface">#2C2C2C</color>
+    <color name="dark_surface_variant">#383838</color>
+
+    <!-- Primary colors -->
+    <color name="orange_primary">#FF6600</color>
+    <color name="orange_dark">#CC5200</color>
+    <color name="orange_light">#FF8C00</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_disabled">#666666</color>
+
+    <!-- Divider -->
+    <color name="divider">#404040</color>
+
+    <!-- Card background -->
+    <color name="card_background">#2C2C2C</color>
 </resources>

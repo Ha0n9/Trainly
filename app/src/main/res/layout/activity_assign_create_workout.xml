@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pattern_3"
+    tools:context=".AssignCreateWorkoutActivity">
+
+    <Spinner
+        android:id="@+id/spnChooseClientAssign"
+        android:layout_width="183dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/rounded_input_field"
+        android:theme="@style/Widget.AppCompat.Spinner"
+        app:layout_constraintBottom_toTopOf="@+id/etEnterExerciseNameAssign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAssignWorkoutTitle" />
+
+    <Button
+        android:id="@+id/btnBackToMainAssign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="@string/btnBackToMainAssign"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnAddWorkoutAssign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnAddWorkoutAssign" />
+
+    <TextView
+        android:id="@+id/tvAssignWorkoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/createWorkoutTitle"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spnChooseClientAssign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddWorkoutAssign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="190dp"
+        android:text="@string/btnAddWorkoutAssign"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnBackToMainAssign"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEnterRepsAssign" />
+
+    <EditText
+        android:id="@+id/etEnterRepsAssign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:hint="@string/etEnterRepsAssign"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddWorkoutAssign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEnterExerciseNameAssign" />
+
+    <EditText
+        android:id="@+id/etEnterExerciseNameAssign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/rounded_input_field"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp"
+        android:text="@string/etEnterExerciseName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/etEnterRepsAssign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnChooseClientAssign" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,33 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Trainly" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#FF6600</item>
+        <item name="colorPrimaryVariant">#CC5200</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#FF8C00</item>
+        <item name="colorSecondaryVariant">#FF6600</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background colors - QUAN TRỌNG -->
+        <item name="android:colorBackground">#1E1E1E</item>
+        <item name="colorSurface">#2C2C2C</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">#FFFFFF</item>
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">#FFFFFF</item>
+
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/dark_background</item>
+
+        <!-- Spinner color -->
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 
     <style name="Theme.Trainly" parent="Base.Theme.Trainly" />
