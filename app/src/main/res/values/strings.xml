@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Trainly</string>
+    <string name="btnTextBackToMain">Back to Main</string>
+    <string name="tvTextTitleActivity3">Workouts</string>
+    <string name="tvTextTitleActivity5">Progress</string>
+    <string name="tvTextTitleActivity13">Password Change</string>
+    <string name="btnTextChangePassword13">Change Password</string>
+    <string name="etTextOldPassHint13">Enter old password</string>
+    <string name="etTextNewPass13">Enter new password</string>
+    <string name="etTextNewPassConfirm13">Confirm new password</string>
 </resources>
